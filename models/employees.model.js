@@ -18,18 +18,18 @@ const employeeSchema = new mongoose.Schema({
         required: true,
      
     },
-    designation: {
-        type: String,
+    // designation: {
+    //     type: String,
 
-    },
-    mobileNumber: {
-        type: String,
+    // },
+    // mobileNumber: {
+    //     type: String,
     
         
-    },
-    bloodGroup: {
-        type: String
-    }
+    // },
+    // bloodGroup: {
+    //     type: String
+    // }
 });
 
 //Model creation
