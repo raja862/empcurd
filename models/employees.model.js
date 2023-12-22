@@ -4,32 +4,32 @@ const mongoose = require('mongoose');
 const employeeSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true,
-        trim: true
+        // required: true,
+        // trim: true
     },
     email: {
         type: String,
-        unique: true,
-        required: true,
+        // unique: true,
+        // required: true,
         
     },
     address: {
         type: String,
-        required: true,
+        // required: true,
      
     },
-    // designation: {
-    //     type: String,
+    designation: {
+        type: String,
 
-    // },
-    // mobileNumber: {
-    //     type: String,
+    },
+    mobileNumber: {
+        type: String,
     
         
-    // },
-    // bloodGroup: {
-    //     type: String
-    // }
+    },
+    bloodGroup: {
+        type: String,
+    }
 });
 
 //Model creation
